@@ -1,0 +1,34 @@
+A. Quick Questions
+1. Where should global constants be placed in a program?
+- Above/outside a function.
+
+2. What are two reasons why you should not use global variables?
+- Global variables make debugging difficult.
+- Global variables make a program harder to understand.
+
+3. When you have two variables with the same name but in different functions, these said to have different ____?
+- Scope
+
+4. What do you call the red dot in the margin in PyCharm that pauses the program running when using the debugger?
+- Breakpoints
+
+5. Briefly explain what would be wrong if you had a line of code like SOME_VALUE += 1 (assume that SOME_VALUE is actually a meaningful name).
+- Constants should NEVER be changed after they are set
+
+6. What is the single most important design principle for designing functions?
+- SRP (Single Responsibility Principal)-One task in one function
+
+B. Logic Exercise
+- I was wrong in the first time (missed one "the")
+
+C. Reflection
+- Problem 1: write the code in a messy way, and it becomes difficult to double-check the code and debug it
+- Solution 1: Wrote in a more systematic way, put the CONSTANT in the top of the program, separate the different parts (this is will help me to understand more easily when I learn the function)
+-- Problem 2: do not test the function after wrote it, my code had a lot of error after i finished to code, and very hard to fixed
+-- Solution 2: Always test the function to ensure that it will work well before moving to another functions
+--- Problem 3: do not pay attention to the basic code structures like: : ,.2f, end:" " ... when I want to reuse it, it takes a lot of time to find from the old exercises.
+--- Solution 3: Note all the basic structures in a file , when i want to reuse anything, just need to find in that file.
+
+
+
+

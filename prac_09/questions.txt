@@ -1,0 +1,39 @@
+A. Quick Questions
+
+1. Explain the difference between the 'r' and 'w' modes when opening a file.
+The 'r' is used when you want to read data from a file.  If the file does not exist, It will get an error
+The 'w'  is used when you want to write data to a file.  If the file does exist, opening it in 'w' mode will overwrite the file
+
+2. What is a file object and how is it different from a file name or the file's contents?
+- A file object represents a file that has been opened
+- File name: a string that represents the name of a file
+- File's contents are the actual data that is stored in the file.
+
+3. Why is it necessary to close a file after it has been opened and used?
+If  do not close the file when done, these resources will remain in use until the program finishes running, and the data maybe lost
+
+4. What is a good principle for deciding whether a literal value should be stored in a CONSTANT?
+- Constants are used to store values that are not likely to change during execution.
+
+5. Write a single Python expression that would evaluate to the file extension of a variable like
+filename = "this_is_a_name.txt" or filename = "document.docx"
+In those two examples, the result of the expression would be txt and docx respectively.
+
+filename.find(.) +1:
+
+6. What is a good number of quick questions to have at the start of a practical?
+1
+
+
+B. Logic Exercise
+There is exactly 1 false statement in this list.
+There are exactly 2 false statements in this list.
+There are exactly 3 false statements in this list.
+
+There are exactly 2 false statements in the list.
+
+The first statement claims that there is exactly 1 false statement in the list, but this statement itself is false,
+because there are actually 2 false statements in the list. The second statement claims that there are exactly 2 false statements in the list, which is true.
+The third statement claims that there are exactly 3 false statements in the list, but this is false because there are only 2 false statements in the list.
+
+Therefore, there are 2 false statements in the list.

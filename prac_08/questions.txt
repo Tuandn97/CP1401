@@ -1,0 +1,37 @@
+A. Quick Questions
+1. What is the main difference between a list and a tuple?
+Tuples are immutable as opposed to lists which are mutable.
+2. What is the convention for naming lists?
+Plural
+
+3. What would be a good name for a list of cities?
+cities
+
+4. How many elements can you store in a list?
+maximum size of a python list on a 32 bit system is 536,870,912 elements.
+
+5. True or False? Elements in a list must all be of the same type (e.g. all strings or all integers)?
+False
+
+6. What does Python's len function do? What types can it be used with?
+- Len function will return the length of an object
+- it only can use integer date type
+
+
+B. List expressions
+1. Warmup Part 1
+numbers = [10, 20, 40, 81]
+
+numbers[0]: 10
+numbers[-1]: 81
+numbers[3]: 81
+20 in numbers: true
+1 in numbers: false
+numbers[1] + numbers[2]: 60
+len(numbers): 4
+
+2. Warmup Part 2
+a. Change the first element of numbers to 1: numbers[0] = 1
+b. Change the last element of numbers to 4: numbers[-1] = 4
+c. Check if 1 is an element of numbers: 1 in numbers
+d. Print the second value in the list multiplied by 10: print(numbers[1] *10)

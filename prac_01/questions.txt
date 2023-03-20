@@ -1,0 +1,65 @@
+My name is Dao Ngoc Tuan
+I come from Viet Nam
+I like playing  mobile game, reading some comic book and listening some rap music
+
+A. Logic Exercise
+Smith - Project Manager
+Brown - Consultant
+Jones - Programmer
+
+B. Algorithms
+    1. Algorithm with I, P, O
+    get dose, yield
+    ratio = yield / dose
+    print ratio
+
+    2. Algorithm with Decision
+    Get price of items, your money
+    if price of items < your money
+        buy items
+    else
+        find other items
+
+    3. Algorithm with Repetition
+    Take a item
+    While still have item on the floor
+        Take item
+    rest
+
+C. Problem Decomposition
+	1. Noun: amount of drug, patient, hourly dosage, number of hours
+	   Verb: calculate, get, receiving, display
+
+	   algorithm
+	   Get hourly dosage, number of hours
+	   total amount of a drug= hourly dosage * number of hours
+	   print total amount of a drug
+
+	2. Noun:  the total charge, the customer's name, the date of the booking, The hourly charge, number of hours, the total charge, id code
+	   Verb: calculate, make, be entered, displayed
+
+       Algorithm
+
+	   get customer's name, booking time, hourly charge, number of hours
+	   booking id= customer's name + booking time
+	   total charge = hourly charge * number of hours
+	   print booking id and total charge
+
+    3. Noun:  the distance travelled, the travel time, the average speed
+       Verb: ask, shown
+
+       algorithm
+
+       get the distance travelled (km), the travel time (minutes)
+       the average speed=the distance travelled / the travel time / 60
+       print the average speed
+
+
+
+
+
+
+
+
+
+

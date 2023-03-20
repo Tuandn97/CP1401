@@ -1,0 +1,33 @@
+A. Quick Questions
+1. Write two variable names that would be valid and well-named.
+monthly_cost
+distance_in_kilometers
+
+2. Write two variable names that would be valid but not well-named.
+x
+total2
+
+3. Write two variable names that would not be valid.
+2_tax
+5_total
+
+4. What is the naming convention for variables in Python?
+- A variable name cannot start with a number
+- A variable have to with lower-case letter
+- A variable name can only contain alpha-numeric characters (a-z, 0-9, and _ )
+
+5. What is a constant? Give an example of when you would use one.
+A constant is a special type of variable whose value cannot be changed.
+Ex: PI=3.1416
+
+6. What is the naming convention for constants?
+- A variable name cannot start with a number
+- A variable have to with upper-case letter
+- A variable name can only contain alpha-numeric characters (A-Z, 0-9, and _ )
+
+
+B. Logic Exercise
+A drawer contains 10 black and 10 white socks that are all mixed up. What is the fewest number of socks you can take from the drawer without looking and be sure to get a pair of the same colour?
+Answer: 3
+Because: There are only 2 colors of socks. So to make sure that you can get a pair of the same colour you need 3 times to take socks from the drawer
+

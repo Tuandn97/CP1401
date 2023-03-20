@@ -1,0 +1,54 @@
+A. Quick Questions
+1. What is the PyCharm keyboard shortcut for commenting (out/in) a selection of code?
+Ctrl/command + /
+
+2. What are the two kinds of loops available in Python?
+While and For
+
+3. What is a "sentinel" (when dealing with loops)?
+The sentinel is the data which will stop the loops
+
+4. What is wrong with this variable name: nothingWrong
+it is a valid mane but not the variable name because
+i) Having capital letter
+ii) Combining 2 words
+iii) Do not have enough information
+
+5. What are augmented assignment operators?
+x = x + y <=> x += y
+x = x - y <=> x -= y
+x = x * y <=> x *= y
+x = x / y <=> x /= y
+x = x % y <=> x %= y
+
+a) Loop outputs
+#1. 0 1 2 3 4 5
+#2. 33 34 35 35 37 38
+#3. 17 16 15 14 13 12
+#4. 1 0 1 0 1 0 1 0 1 0
+#5. 100>64>36>16>4>
+
+b) Range values
+1.range(6)
+2.range(1, 14, 4)
+3.range(3, 0, -1)
+4.range(7, -6, -3)
+
+B.Patterns
+1. Error-checking user input, looping until they enter a valid response
+indefinite (while loops)
+
+2. A menu with several options including 'quit'
+indefinite (while loops)
+
+3. Displaying all the months in a year
+definite (for loops)
+
+4. Printing 5 random numbers
+definite (for loops)
+
+5. Printing n random numbers, where n is a user input
+definite (for loops)
+
+C. Logic Exercise
+3
